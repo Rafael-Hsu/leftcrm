@@ -1,0 +1,3999 @@
+---------------------------------------------------------------
+[ 2024-11-19T17:56:58+08:00 ] 147.92.179.110 GET crm178.kaiwenit.com/guanli.php
+[运行時間：0.169024s] [吞吐率：5.92req/s] [内存消耗：2,824.62kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016213s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.004706s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000046s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'accept' => '*/*',
+  'host' => 'crm178.kaiwenit.com',
+  'user-agent' => 'facebookexternalhit/1.1;line-poker/1.0',
+  'accept-language' => 'zh-TW',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004686s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001828s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:05+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/index/login
+[运行時間：0.181316s] [吞吐率：5.52req/s] [内存消耗：4,159.59kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008773s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002234s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000044s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5n27r34aovk2dvb92bu2ph81cl; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004585s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000877s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.001179s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @admin_login_init [ RunTime:0.001094s ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.031273s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000921s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:05+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/index.php?s=/captcha
+[运行時間：0.037358s] [吞吐率：26.77req/s] [内存消耗：1,983.30kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003534s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000732s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000036s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5n27r34aovk2dvb92bu2ph81cl; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:35+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/dashboard?ref=addtabs
+[运行時間：0.050383s] [吞吐率：19.85req/s] [内存消耗：3,053.95kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003041s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000639s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002228s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000094s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:39+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/index/login?url=%2Fguanli.php%2Ffacrm%2Fdashboard%3Fref%3Daddtabs
+[运行時間：0.065102s] [吞吐率：15.36req/s] [内存消耗：4,160.90kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003157s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000649s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://crm178.kaiwenit.com/guanli.php/facrm/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/guanli.php/facrm/dashboard?ref=addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002195s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000149s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000133s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @admin_login_init [ RunTime:0.000274s ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.014915s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:39+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/index.php?s=/captcha
+[运行時間：0.036866s] [吞吐率：27.13req/s] [内存消耗：1,983.30kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002973s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000620s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000037s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:39+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1732026879&v=1732026879
+[运行時間：0.062480s] [吞吐率：16.01req/s] [内存消耗：3,220.53kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003752s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000859s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000048s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1732026879',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003247s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000225s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000178s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000155s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:51+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/index/login?url=%2Fguanli.php%2Ffacrm%2Fdashboard%3Fref%3Daddtabs
+[运行時間：0.080668s] [吞吐率：12.40req/s] [内存消耗：4,226.03kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002923s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000627s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '88',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/guanli.php/facrm/dashboard?ref=addtabs',
+  '__token__' => '0896a267ba773107416b158556801e6a',
+  'username' => 'admin',
+  'password' => 'admin888',
+  'captcha' => 'Ganm',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002244s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000179s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000113s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @admin_login_after [ RunTime:0.000697s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.009164s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:51+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/dashboard?ref=addtabs
+[运行時間：0.063065s] [吞吐率：15.86req/s] [内存消耗：4,117.75kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002976s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000657s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002060s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:51+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/index/index
+[运行時間：0.114302s] [吞吐率：8.75req/s] [内存消耗：4,980.91kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003119s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000674s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000034s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002323s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000177s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000154s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.022519s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:51+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/dashboard?addtabs=1
+[运行時間：0.152530s] [吞吐率：6.56req/s] [内存消耗：5,106.50kb] [文件加载：97]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003214s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000656s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002103s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000183s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000114s ]
+[ info ] [ RUN ] app\admin\controller\facrm\Dashboard->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'groupdata',
+  6 => 'communicate',
+  7 => 'lose_num',
+  8 => 'business',
+  9 => 'contract_expire',
+  10 => 'contract_return',
+  11 => 'clues_num',
+  12 => 'achievement',
+  13 => 'erchart',
+  14 => 'team_communicate',
+  15 => 'team_lose_num',
+  16 => 'team_business',
+  17 => 'team_contract_expire',
+  18 => 'team_contract_return',
+  19 => 'team_clues_num',
+  20 => 'team_achievement',
+  21 => 'team_erchart',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000083s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000099s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:52+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/dashboard?addtabs=1
+[运行時間：0.386591s] [吞吐率：2.59req/s] [内存消耗：4,558.62kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003488s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000640s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002208s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000210s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000125s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totaladdon',
+  7 => 'totaladmin',
+  8 => 'totalcategory',
+  9 => 'todayusersignup',
+  10 => 'todayuserlogin',
+  11 => 'sevendau',
+  12 => 'thirtydau',
+  13 => 'threednu',
+  14 => 'sevendnu',
+  15 => 'dbtablenums',
+  16 => 'dbsize',
+  17 => 'totalworkingaddon',
+  18 => 'attachmentnums',
+  19 => 'attachmentsize',
+  20 => 'picturenums',
+  21 => 'picturesize',
+  22 => 'cnews',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000083s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000087s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:52+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=facrm.dashboard&lang=zh-cn&v=1732026891&v=1732026891
+[运行時間：0.047896s] [吞吐率：20.88req/s] [内存消耗：3,215.85kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002954s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000763s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000035s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'facrm.dashboard',
+  'lang' => 'zh-cn',
+  'v' => '1732026891',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002942s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000176s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000115s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:52+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1732026891&v=1732026891
+[运行時間：0.046342s] [吞吐率：21.58req/s] [内存消耗：3,222.21kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003038s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000643s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000036s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1732026891',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002614s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000157s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000135s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000089s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:52+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=dashboard&lang=zh-cn&v=1732026891&v=1732026891
+[运行時間：0.047593s] [吞吐率：21.01req/s] [内存消耗：3,219.92kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003073s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000610s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'lang' => 'zh-cn',
+  'v' => '1732026891',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002747s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000179s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000122s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:57+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/contract/index?ref=addtabs&from_type=return&addtabs=1
+[运行時間：0.121389s] [吞吐率：8.24req/s] [内存消耗：4,855.46kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002971s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000601s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+  'from_type' => 'return',
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001894s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000237s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000150s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/contract/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'scene_list',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000086s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000107s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:57+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=facrm.contract.index&lang=zh-cn&v=1732026896&v=1732026896
+[运行時間：0.044290s] [吞吐率：22.58req/s] [内存消耗：3,215.88kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002907s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000596s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'facrm.contract.index',
+  'lang' => 'zh-cn',
+  'v' => '1732026896',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002465s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000150s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000136s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000277s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:34:58+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/contract/index/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%22all%22%2C%22check_status%22%3A%222%22%2C%22expire_handle%22%3A%22100%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%2C%22check_status%22%3A%22%3D%22%2C%22expire_handle%22%3A%22%3D%22%7D&_=1732026897299
+[运行時間：0.089334s] [吞吐率：11.19req/s] [内存消耗：4,776.10kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002958s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000617s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"all","check_status":"2","expire_handle":"100"}',
+  'op' => '{"scene_id":"=","check_status":"=","expire_handle":"="}',
+  '_' => '1732026897299',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001927s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000176s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000116s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:11+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/contract/index/edit/ids/28?dialog=1
+[运行時間：0.105194s] [吞吐率：9.51req/s] [内存消耗：5,078.46kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003051s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000641s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000035s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '28',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002224s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000185s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000114s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->edit[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/contract/index/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'row',
+  6 => 'product_list',
+  7 => 'flow',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000080s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:12+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=facrm.contract.index&lang=zh-cn&v=1732026911&v=1732026911
+[运行時間：0.058919s] [吞吐率：16.97req/s] [内存消耗：3,215.88kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003893s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000839s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000041s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'facrm.contract.index',
+  'lang' => 'zh-cn',
+  'v' => '1732026911',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003314s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000244s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000154s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:13+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/fields/get_fields_html?source=contract&id=28
+[运行時間：0.137643s] [吞吐率：7.27req/s] [内存消耗：4,482.45kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002966s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000586s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.fields',
+    2 => 'get_fields_html',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'source' => 'contract',
+  'id' => '28',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001971s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000190s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000145s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/facrm/fields.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\Fields->get_fields_html[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Fields.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/common/fields_4_12.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'typeList',
+  7 => 'regexList',
+  8 => 'fields',
+  9 => 'values',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000123s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:13+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/contract/index/selectcontact
+[运行時間：0.153679s] [吞吐率：6.51req/s] [内存消耗：4,335.27kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003834s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000812s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000040s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'selectcontact',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '183',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '71',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '71',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'custom' => 
+  array (
+    'customer_id' => '73',
+  ),
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002736s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000195s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000151s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->selectcontact[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000272s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:13+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/common/selectpage/model/admin/type/all
+[运行時間：0.165699s] [吞吐率：6.04req/s] [内存消耗：4,150.09kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003388s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000829s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000035s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.common',
+    2 => 'selectpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '166',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '8',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'nickname',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'nickname',
+  'keyField' => 'id',
+  'keyValue' => '8',
+  'searchField' => 
+  array (
+    0 => 'nickname',
+  ),
+  'model' => 'admin',
+  'type' => 'all',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002117s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000199s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000133s ]
+[ info ] [ RUN ] app\admin\controller\facrm\Common->selectpage[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000556s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:13+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/common/selectpage/model/admin
+[运行時間：0.192932s] [吞吐率：5.18req/s] [内存消耗：4,155.92kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003731s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000807s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000037s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.common',
+    2 => 'selectpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '166',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '8',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'nickname',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'nickname',
+  'keyField' => 'id',
+  'keyValue' => '8',
+  'searchField' => 
+  array (
+    0 => 'nickname',
+  ),
+  'model' => 'admin',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002767s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000178s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000119s ]
+[ info ] [ RUN ] app\admin\controller\facrm\Common->selectpage[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000550s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:13+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/business/index/index
+[运行時間：0.242854s] [吞吐率：4.12req/s] [内存消耗：4,494.58kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004467s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000914s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000045s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.business.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '7',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '7',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002692s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000189s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000130s ]
+[ info ] [ RUN ] app\admin\controller\facrm\business\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/business/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000593s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:13+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/customer/index/selectpage/type/all
+[运行時間：0.286515s] [吞吐率：3.49req/s] [内存消耗：4,506.86kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003509s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000686s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000034s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.index',
+    2 => 'selectpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '156',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '73',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '73',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'type' => 'all',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003081s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000173s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000114s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Index->selectpage[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000582s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:25+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/contract/index/edit/ids/28?dialog=1
+[运行時間：0.104637s] [吞吐率：9.56req/s] [内存消耗：4,697.61kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003491s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000695s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'selectPage' => '7',
+  'row' => 
+  array (
+    'contacts_id' => '71',
+    'order_admin_id' => '8',
+    'expire_handle' => '0',
+    'owner_user_id' => '8',
+    'remark' => '',
+    'totalNums' => '',
+  ),
+  'product' => 
+  array (
+    1 => 
+    array (
+      'product_id' => '4',
+      'sku' => 'CD1',
+      'specification' => '1',
+      'prop' => '',
+      'unit' => '式',
+      'subtotal' => '5000.00',
+    ),
+  ),
+  'ids' => '28',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002259s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000217s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000141s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->edit[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.007262s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:25+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/contract/index/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%22all%22%2C%22check_status%22%3A%222%22%2C%22expire_handle%22%3A%22100%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%2C%22check_status%22%3A%22%3D%22%2C%22expire_handle%22%3A%22%3D%22%7D&_=1732026897300
+[运行時間：0.092434s] [吞吐率：10.82req/s] [内存消耗：4,776.10kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003222s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000758s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000035s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"all","check_status":"2","expire_handle":"100"}',
+  'op' => '{"scene_id":"=","check_status":"=","expire_handle":"="}',
+  '_' => '1732026897300',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002115s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000197s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000136s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:35+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/contract/index/edit/ids/28?dialog=1
+[运行時間：0.084783s] [吞吐率：11.79req/s] [内存消耗：4,910.17kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002921s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000602s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000028s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '28',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002077s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000195s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000133s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->edit[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/contract/index/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'row',
+  6 => 'product_list',
+  7 => 'flow',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000075s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:36+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=facrm.contract.index&lang=zh-cn&v=1732026935&v=1732026935
+[运行時間：0.045496s] [吞吐率：21.98req/s] [内存消耗：3,215.88kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002869s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000607s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000028s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'facrm.contract.index',
+  'lang' => 'zh-cn',
+  'v' => '1732026935',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002395s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000195s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000161s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:36+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/fields/get_fields_html?source=contract&id=28
+[运行時間：0.065358s] [吞吐率：15.30req/s] [内存消耗：4,339.82kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002927s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000591s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.fields',
+    2 => 'get_fields_html',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'source' => 'contract',
+  'id' => '28',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002063s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000148s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000109s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/facrm/fields.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\Fields->get_fields_html[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Fields.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/common/fields_4_12.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'typeList',
+  7 => 'regexList',
+  8 => 'fields',
+  9 => 'values',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000126s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000138s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:37+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/common/selectpage/model/admin/type/all
+[运行時間：0.087110s] [吞吐率：11.48req/s] [内存消耗：4,150.09kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004207s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000922s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000044s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.common',
+    2 => 'selectpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '166',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '8',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'nickname',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'nickname',
+  'keyField' => 'id',
+  'keyValue' => '8',
+  'searchField' => 
+  array (
+    0 => 'nickname',
+  ),
+  'model' => 'admin',
+  'type' => 'all',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002847s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000203s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000175s ]
+[ info ] [ RUN ] app\admin\controller\facrm\Common->selectpage[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000680s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:37+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/contract/index/selectcontact
+[运行時間：0.100233s] [吞吐率：9.98req/s] [内存消耗：4,335.27kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002945s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000613s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000033s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'selectcontact',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '183',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '71',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '71',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'custom' => 
+  array (
+    'customer_id' => '73',
+  ),
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002159s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000145s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000113s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->selectcontact[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000220s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:37+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/customer/index/selectpage/type/all
+[运行時間：0.135899s] [吞吐率：7.36req/s] [内存消耗：4,506.86kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003809s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000828s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000042s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.index',
+    2 => 'selectpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '156',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '73',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '73',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'type' => 'all',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002673s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000181s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000144s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Index->selectpage[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000560s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:37+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/business/index/index
+[运行時間：0.206081s] [吞吐率：4.85req/s] [内存消耗：4,494.58kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002986s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000652s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.business.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '7',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '7',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002188s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000205s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000146s ]
+[ info ] [ RUN ] app\admin\controller\facrm\business\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/business/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000505s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:37+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/common/selectpage/model/admin
+[运行時間：0.211102s] [吞吐率：4.74req/s] [内存消耗：4,155.92kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002960s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000679s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000050s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.common',
+    2 => 'selectpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '166',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '8',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'nickname',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'nickname',
+  'keyField' => 'id',
+  'keyValue' => '8',
+  'searchField' => 
+  array (
+    0 => 'nickname',
+  ),
+  'model' => 'admin',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002736s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000171s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000115s ]
+[ info ] [ RUN ] app\admin\controller\facrm\Common->selectpage[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000603s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:51+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/contract/receivables/add/ids/28?dialog=1
+[运行時間：0.083944s] [吞吐率：11.91req/s] [内存消耗：4,953.24kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003023s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000635s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.receivables',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '28',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002008s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000169s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000148s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Receivables->add[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Receivables.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/contract/receivables/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'account_list',
+  6 => 'rprefix',
+  7 => 'flow',
+  8 => 'contract_r',
+  9 => 'addtype',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000092s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:52+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=facrm.contract.receivables&lang=zh-cn&v=1732026951&v=1732026951
+[运行時間：0.051291s] [吞吐率：19.50req/s] [内存消耗：3,215.91kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003510s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000763s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000040s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'facrm.contract.receivables',
+  'lang' => 'zh-cn',
+  'v' => '1732026951',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002436s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000684s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000127s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000108s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:53+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/fields/get_fields_html?source=contract_receivables&id=
+[运行時間：0.064718s] [吞吐率：15.45req/s] [内存消耗：4,299.84kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002975s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000639s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.fields',
+    2 => 'get_fields_html',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'source' => 'contract_receivables',
+  'id' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002093s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000170s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000116s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/facrm/fields.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\Fields->get_fields_html[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Fields.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/common/fields_4_12.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'typeList',
+  7 => 'regexList',
+  8 => 'fields',
+  9 => 'values',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000122s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:53+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/customer/index/selectpage/type/all
+[运行時間：0.067684s] [吞吐率：14.77req/s] [内存消耗：4,506.86kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002996s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000682s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000044s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.index',
+    2 => 'selectpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '156',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '73',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '73',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'type' => 'all',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002017s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000158s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000136s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Index->selectpage[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000632s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:35:58+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/common/selectpage/model/admin/type/all
+[运行時間：0.075457s] [吞吐率：13.25req/s] [内存消耗：4,164.15kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003771s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000811s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000039s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.common',
+    2 => 'selectpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '186',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'andOr' => 'OR ',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'nickname',
+      1 => 'ASC',
+    ),
+  ),
+  'searchTable' => 'tbl',
+  'showField' => 'nickname',
+  'keyField' => 'id',
+  'searchField' => 
+  array (
+    0 => 'nickname',
+  ),
+  'nickname' => '',
+  'model' => 'admin',
+  'type' => 'all',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002373s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000211s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000206s ]
+[ info ] [ RUN ] app\admin\controller\facrm\Common->selectpage[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000557s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:01+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/common/selectpage/model/admin/type/all
+[运行時間：0.059308s] [吞吐率：16.86req/s] [内存消耗：4,164.15kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003090s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000647s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000033s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.common',
+    2 => 'selectpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '186',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'andOr' => 'OR ',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'nickname',
+      1 => 'ASC',
+    ),
+  ),
+  'searchTable' => 'tbl',
+  'showField' => 'nickname',
+  'keyField' => 'id',
+  'searchField' => 
+  array (
+    0 => 'nickname',
+  ),
+  'nickname' => '',
+  'model' => 'admin',
+  'type' => 'all',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002150s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000157s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000111s ]
+[ info ] [ RUN ] app\admin\controller\facrm\Common->selectpage[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000512s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:04+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/contract/receivables/add/ids/28?dialog=1
+[运行時間：0.146218s] [吞吐率：6.84req/s] [内存消耗：5,008.04kb] [文件加载：103]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002875s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000595s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.receivables',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '290',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'row' => 
+  array (
+    'number' => '20241119223551218001',
+    'customer_id' => '73',
+    'contract_id' => '28',
+    'pay_type' => '1',
+    'money' => '5000',
+    'account_id' => '1',
+    'return_time' => '2024-11-19 22:35',
+    'flow_admin_id' => '1',
+    'remark' => '',
+  ),
+  'ids' => '28',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002220s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000187s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000143s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Receivables->add[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Receivables.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.008980s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:04+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/contract/index/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%22all%22%2C%22check_status%22%3A%222%22%2C%22expire_handle%22%3A%22100%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%2C%22check_status%22%3A%22%3D%22%2C%22expire_handle%22%3A%22%3D%22%7D&_=1732026897301
+[运行時間：0.083754s] [吞吐率：11.94req/s] [内存消耗：4,776.10kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002992s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000651s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"all","check_status":"2","expire_handle":"100"}',
+  'op' => '{"scene_id":"=","check_status":"=","expire_handle":"="}',
+  '_' => '1732026897301',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001899s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000228s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000170s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000121s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:09+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/contract/index/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%22all%22%2C%22check_status%22%3A%222%22%2C%22expire_handle%22%3A%22100%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%2C%22check_status%22%3A%22%3D%22%2C%22expire_handle%22%3A%22%3D%22%7D&_=1732026897302
+[运行時間：0.086520s] [吞吐率：11.56req/s] [内存消耗：4,776.10kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002879s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000625s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"all","check_status":"2","expire_handle":"100"}',
+  'op' => '{"scene_id":"=","check_status":"=","expire_handle":"="}',
+  '_' => '1732026897302',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002002s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000184s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000150s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:22+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/contract/index/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%22all%22%2C%22check_status%22%3A%222%22%2C%22expire_handle%22%3A%22100%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%2C%22check_status%22%3A%22%3D%22%2C%22expire_handle%22%3A%22%3D%22%7D&_=1732026897303
+[运行時間：0.087478s] [吞吐率：11.43req/s] [内存消耗：4,776.10kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003115s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000681s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.contract.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"all","check_status":"2","expire_handle":"100"}',
+  'op' => '{"scene_id":"=","check_status":"=","expire_handle":"="}',
+  '_' => '1732026897303',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002004s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000164s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000114s ]
+[ info ] [ RUN ] app\admin\controller\facrm\contract\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/contract/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000115s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:28+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/business/index?ref=addtabs&from_type=need&addtabs=1
+[运行時間：0.082765s] [吞吐率：12.08req/s] [内存消耗：4,691.48kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003090s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000611s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.business.index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+  'from_type' => 'need',
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002029s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000254s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000173s ]
+[ info ] [ RUN ] app\admin\controller\facrm\business\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/business/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/business/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'scene_list',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000103s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000100s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:29+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=facrm.business.index&lang=zh-cn&v=1732026988&v=1732026988
+[运行時間：0.062805s] [吞吐率：15.92req/s] [内存消耗：3,215.88kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004286s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000886s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000041s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'facrm.business.index',
+  'lang' => 'zh-cn',
+  'v' => '1732026988',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003547s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000216s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000170s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:29+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/business/index/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%227%22%2C%22next_time%22%3A%222023-01-01+0%3A00%3A00+-+2024-11-19+23%3A59%3A59%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%2C%22next_time%22%3A%22RANGE%22%7D&_=1732026988914
+[运行時間：0.082736s] [吞吐率：12.09req/s] [内存消耗：4,678.16kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004330s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000643s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.business.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"7","next_time":"2023-01-01 0:00:00 - 2024-11-19 23:59:59"}',
+  'op' => '{"scene_id":"=","next_time":"RANGE"}',
+  '_' => '1732026988914',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002042s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000163s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000137s ]
+[ info ] [ RUN ] app\admin\controller\facrm\business\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/business/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000087s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:35+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/index/detail/ids/68?dialog=1
+[运行時間：0.089430s] [吞吐率：11.18req/s] [内存消耗：5,110.33kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003116s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000679s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002141s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000229s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000159s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Index->detail[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/customer/index/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'levelList',
+  6 => 'industryList',
+  7 => 'sourceList',
+  8 => 'record_type_list',
+  9 => 'addon_config',
+  10 => 'row',
+  11 => 'action',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000075s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000106s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:36+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=facrm.customer.index&lang=zh-cn&v=1732026995&v=1732026995
+[运行時間：0.044829s] [吞吐率：22.31req/s] [内存消耗：3,215.88kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002997s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000618s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'facrm.customer.index',
+  'lang' => 'zh-cn',
+  'v' => '1732026995',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002458s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000149s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000110s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000086s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:37+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/fields/get_fields_html?source=customer&id=68&tpl=fields_6_2
+[运行時間：0.134734s] [吞吐率：7.42req/s] [内存消耗：4,518.14kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003389s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000823s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000048s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.fields',
+    2 => 'get_fields_html',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'source' => 'customer',
+  'id' => '68',
+  'tpl' => 'fields_6_2',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002538s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000154s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000140s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/facrm/fields.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\Fields->get_fields_html[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Fields.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/common/fields_6_2.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'typeList',
+  7 => 'regexList',
+  8 => 'fields',
+  9 => 'values',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000083s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000081s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:37+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/index/contractlist/customer_id/68?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1732026996115
+[运行時間：0.128631s] [吞吐率：7.77req/s] [内存消耗：5,044.41kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003137s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000648s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.index',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1732026996115',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002011s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000176s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000126s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Index->contractlist[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000087s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:37+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/contacts/index/customer_id/68?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%224%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%7D&_=1732026996113
+[运行時間：0.195391s] [吞吐率：5.12req/s] [内存消耗：4,658.80kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003535s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000747s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000042s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.contacts',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"4"}',
+  'op' => '{"scene_id":"="}',
+  '_' => '1732026996113',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002471s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000142s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000114s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Contacts->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Contacts.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000147s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:37+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/index/receivableslist/customer_id/68?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1732026996116
+[运行時間：0.227106s] [吞吐率：4.40req/s] [内存消耗：5,079.71kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003667s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000734s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000047s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.index',
+    2 => 'receivableslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1732026996116',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.017389s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000187s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000142s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Index->receivableslist[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:37+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/record/files/customer_id/68?sort=id&order=desc&_=1732026996117
+[运行時間：0.128615s] [吞吐率：7.78req/s] [内存消耗：4,524.42kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003770s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000810s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000036s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.record',
+    2 => 'files',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  '_' => '1732026996117',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002068s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000221s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000125s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Record->files[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Record.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000117s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:37+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/record/index/customer_id/68?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1732026996112
+[运行時間：0.338841s] [吞吐率：2.95req/s] [内存消耗：4,761.70kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004289s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000922s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000041s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.record',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1732026996112',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002466s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000168s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000112s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Record->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Record.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000089s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:37+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/business/index/index/customer_id/68?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%227%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%7D&_=1732026996114
+[运行時間：0.375724s] [吞吐率：2.66req/s] [内存消耗：4,672.43kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003796s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000881s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000045s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.business.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"7"}',
+  'op' => '{"scene_id":"="}',
+  '_' => '1732026996114',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002970s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000162s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000128s ]
+[ info ] [ RUN ] app\admin\controller\facrm\business\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/business/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:37+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/area
+[运行時間：0.074435s] [吞吐率：13.43req/s] [内存消耗：4,124.19kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003793s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000700s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000040s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'area',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002792s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000210s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000160s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->area[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:44+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/record/add/ids/68?dialog=1
+[运行時間：0.092949s] [吞吐率：10.76req/s] [内存消耗：5,077.80kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003104s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000644s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.record',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002010s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000190s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000143s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Record->add[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Record.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/customer/record/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'levelList',
+  6 => 'industryList',
+  7 => 'sourceList',
+  8 => 'record_type_list',
+  9 => 'addon_config',
+  10 => 'row',
+  11 => 'status_row',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000073s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000094s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:45+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/lang?callback=define&controllername=facrm.customer.record&lang=zh-cn&v=1732027004&v=1732027004
+[运行時間：0.058996s] [吞吐率：16.95req/s] [内存消耗：3,215.91kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003951s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000808s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000041s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'facrm.customer.record',
+  'lang' => 'zh-cn',
+  'v' => '1732027004',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003197s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000196s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000147s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000119s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:45+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/record/index/customer_id/68?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1732027004851
+[运行時間：0.085473s] [吞吐率：11.70req/s] [内存消耗：4,761.70kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003062s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000619s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.record',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1732027004851',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002004s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000186s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000119s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Record->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Record.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000098s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:45+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/index/contractlist/customer_id/68?sort=id&order=desc&offset=0&limit=10&_=1732027004854
+[运行時間：0.110724s] [吞吐率：9.03req/s] [内存消耗：5,044.25kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016913s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000653s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.index',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  '_' => '1732027004854',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002039s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000224s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000157s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Index->contractlist[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:45+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/business/index/index/customer_id/68?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%227%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%7D&_=1732027004853
+[运行時間：0.175493s] [吞吐率：5.70req/s] [内存消耗：4,672.43kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.025165s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000629s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000028s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.business.index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"7"}',
+  'op' => '{"scene_id":"="}',
+  '_' => '1732027004853',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001986s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000189s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000135s ]
+[ info ] [ RUN ] app\admin\controller\facrm\business\Index->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/business/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000120s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:45+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/index/receivableslist/customer_id/68?sort=id&order=desc&offset=0&limit=10&_=1732027004855
+[运行時間：0.105493s] [吞吐率：9.48req/s] [内存消耗：5,079.55kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004014s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000834s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000044s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.index',
+    2 => 'receivableslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  '_' => '1732027004855',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002681s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000189s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000149s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Index->receivableslist[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000086s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:46+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/contacts/index/customer_id/68?sort=id&order=desc&offset=0&limit=10&filter=%7B%22scene_id%22%3A%224%22%7D&op=%7B%22scene_id%22%3A%22%3D%22%7D&_=1732027004852
+[运行時間：0.270112s] [吞吐率：3.70req/s] [内存消耗：4,658.80kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014079s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000630s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.contacts',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"scene_id":"4"}',
+  'op' => '{"scene_id":"="}',
+  '_' => '1732027004852',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001942s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000149s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000124s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Contacts->index[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Contacts.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:46+08:00 ] 123.194.18.30 POST crm178.kaiwenit.com/guanli.php/facrm/fields/get_fields_html
+[运行時間：0.127305s] [吞吐率：7.86req/s] [内存消耗：4,782.10kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003017s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000683s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.fields',
+    2 => 'get_fields_html',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://crm178.kaiwenit.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '37',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+)
+[ info ] [ PARAM ] array (
+  'source' => 'customer',
+  'id' => '68',
+  'tpl' => 'fields_12_2',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002036s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000170s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000114s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/facrm/fields.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\facrm\Fields->get_fields_html[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/Fields.php ]
+[ info ] [ VIEW ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/view/facrm/common/fields_12_2.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'typeList',
+  7 => 'regexList',
+  8 => 'fields',
+  9 => 'values',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\facrm\Facrm @view_filter [ RunTime:0.000095s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.016604s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:46+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/facrm/customer/record/files/customer_id/68?sort=id&order=desc&_=1732027004856
+[运行時間：0.183806s] [吞吐率：5.44req/s] [内存消耗：4,524.42kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014230s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000674s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'facrm.customer.record',
+    2 => 'files',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  '_' => '1732027004856',
+  'customer_id' => '68',
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002114s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000176s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000123s ]
+[ info ] [ RUN ] app\admin\controller\facrm\customer\Record->files[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/facrm/customer/Record.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000092s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-19T22:36:46+08:00 ] 123.194.18.30 GET crm178.kaiwenit.com/guanli.php/ajax/area
+[运行時間：0.059663s] [吞吐率：16.76req/s] [内存消耗：4,124.19kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003118s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000609s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'area',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=fn0o3cvknjsog4qck8hn64cels; think_var=zh-cn',
+  'accept-language' => 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'crm178.kaiwenit.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002006s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000172s ]
+[ info ] [ BEHAVIOR ] Run \addons\umeditor\Umeditor @config_init [ RunTime:0.000161s ]
+[ info ] [ LANG ] /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->area[ /www/wwwroot/2024/10/kh06_crm178.kaiwenit.com/application/admin/controller/Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File

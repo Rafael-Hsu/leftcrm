@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+a:10:{s:7:"upgrade";a:1:{i:0;s:19:"\addons\facrm\Facrm";}s:16:"admin_login_init";a:1:{i:0;s:19:"\addons\facrm\Facrm";}s:17:"admin_login_after";a:1:{i:0;s:19:"\addons\facrm\Facrm";}s:17:"facrm_flow_verify";a:1:{i:0;s:19:"\addons\facrm\Facrm";}s:23:"user_register_successed";a:1:{i:0;s:19:"\addons\facrm\Facrm";}s:24:"facrm_send_email_success";a:1:{i:0;s:19:"\addons\facrm\Facrm";}s:22:"facrm_send_sms_success";a:1:{i:0;s:19:"\addons\facrm\Facrm";}s:11:"view_filter";a:1:{i:0;s:19:"\addons\facrm\Facrm";}s:20:"facrm_invoice_opener";a:1:{i:0;s:19:"\addons\facrm\Facrm";}s:11:"config_init";a:2:{i:0;s:29:"\addons\summernote\Summernote";i:1;s:25:"\addons\umeditor\Umeditor";}}
